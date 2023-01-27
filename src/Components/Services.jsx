@@ -46,7 +46,7 @@ const Services = () => {
 
 
 <Stack height='100%' width='100%' alignItems='flex-end' justifyContent='flex-start' className='Jadoo_Services_Overlay'>
-<img src={image} alt='image'/>
+{ query &&<img src={image} alt='image'/>}
 </Stack>
       </Grid>
     </section>

@@ -17,7 +17,7 @@ const Navbar = () => {
     display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: '3rem'
   }
   return (
-    <Grid xs={12} minHeight='6rem'  backgroundColor='blue' className='Jadoo_Navbar' container>
+    <Grid xs={12} minHeight='6rem'   className='Jadoo_Navbar' container>
       <Grid style={imageStyle} className='Jadoo_Navbar_Logo_Container' xs={6} md={3} item >
         <img className='Jadoo_Navbar_Logo' src={Logo} alt='Jadoo_Logo' />
       </Grid>
@@ -30,7 +30,7 @@ const Navbar = () => {
           )
         })}
 
-        <Box display='flex'  flexDirection='row' alignItems='center' justifyContent='center' gap='1.7rem' height='100%' backgroundColor='green' width='20rem'>
+        <Box display='flex'  flexDirection='row' alignItems='center' justifyContent='center' gap='1.7rem' height='100%'  width='20rem'>
           <MainLink className='Jadoo_Login_Button' to='/'>
             Login
           </MainLink>

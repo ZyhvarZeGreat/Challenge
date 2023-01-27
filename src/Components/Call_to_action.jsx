@@ -38,7 +38,7 @@ const Call_to_action = () => {
         </Stack>
       </Grid>
       <Stack alignItems='flex-end' justifyContent='flex-end' className='Jadoo_Call_To_Action_Underlay' width='100%' height='30rem'  >
-        <img src={image} alt='plus' />
+      {query &&  <img src={image} alt='plus' />}
       </Stack>
     </section>
   )
