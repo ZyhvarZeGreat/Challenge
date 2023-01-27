@@ -1,0 +1,21 @@
+.Jadoo_Header_Overlay_Image{
+    background-image: url('../assets/Decore.svg');
+    background-repeat: no-repeat;
+}
+.Home_Header{
+    position: relative;
+}
+.Jadoo_Header_Overlay{
+    top:0;
+    position: absolute;
+}
+.Jadoo_Header_Overlay_Blur{
+opacity: 0.5;
+background-color:  #D5AEE4;
+filter: blur(75px);
+}
+.Jadoo_Header_Overlay_Image{
+/* margin-left: 45rem;
+margin-bottom: 27rem; */
+z-index: -1;
+}

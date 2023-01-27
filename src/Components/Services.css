@@ -1,0 +1,22 @@
+.Jadoo_Services_subHeading{
+    font-family: 'Volkhov',sans-serif;
+    font-size: 2.8rem;
+    text-transform: capitalize;
+}
+.Jadoo_Services_Heading{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+}
+
+.Jadoo_Services_Container{
+    position: relative;
+}
+.Jadoo_Services_Overlay{
+    position: absolute;
+}
+.Jadoo_Services_Overlay img{
+    margin-right: 2rem;
+    width: 10rem;
+    height: 10rem;
+    object-fit: contain;
+}

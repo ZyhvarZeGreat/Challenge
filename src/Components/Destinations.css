@@ -1,0 +1,43 @@
+.Jadoo_Destinations_Card_Item_Image img{
+height: 100%;
+width: 100%;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+object-fit: cover;
+}
+
+.Jadoo_Destinations_Card_Item_Details_Text p{
+font-family: 'Poppins',sans-serif;
+
+}
+
+.Jadoo_Destinations_Card_Items{
+    border-radius: 10px;
+    box-shadow: 1px 2px 1px 3px rgba(0,0,0,0.04);
+}
+.Jadoo_Destinations_Header h4{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+.Jadoo_Destinations_Header h1{
+    font-family: 'Volkhov',sans-serif;
+    font-size: var(--h2-font-size);
+    font-weight: 700;
+}.Jadoo_Destinations_Card_Item_Details_Desc p{
+font-family: 'Poppins',sans-serif;
+font-size: var(--paragraph-font-size);
+}
+.Jadoo_Destinations_Cards{
+    position: relative;
+}
+.Jadoo_Destinations_Overlay{
+    position: absolute;
+}
+.Jadoo_Destinations_Overlay img{
+margin-right: -3rem;
+z-index: -1;
+    height: 15rem;
+    object-fit: contain;
+    width: 15rem;
+}

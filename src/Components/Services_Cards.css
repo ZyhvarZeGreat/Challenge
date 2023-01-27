@@ -1,0 +1,45 @@
+.Jadoo_Services_Card_Underlay {
+    background-color: antiquewhite;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 7px;
+}
+
+.Jadoo_Services_Cards:hover {
+    border-radius: 15px;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.04);
+}
+
+.icon {
+    position: absolute;
+    top: .3rem;
+    right: 4.5rem;
+}
+
+.Jadoo_Services_Card_Icon {
+    position: relative;
+}
+
+.Jadoo_Services_Card_Icon img {
+    height: 3.5rem;
+
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    top: -1rem;
+    left: 2.3rem;
+}
+
+.Jadoo_Services_Card_Text h2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+}
+
+.Jadoo_Services_Card_Text p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}

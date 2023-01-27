@@ -1,0 +1,58 @@
+.Jadoo_Footer {
+    background-size: 100% 100%;
+
+}
+
+#footer_header{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+}
+.Jadoo_Footer_Details_Items h1{
+font-family: 'Poppins',sans-serif;
+font-weight: 500;
+}
+.Jadoo_Footer_Details_Items p{
+    font-family: 'Poppins',sans-serif;
+    }
+.Jadoo_Footer_Download_Icon_Container{
+    box-shadow: 1px 1px 2px 3px rgba(0,0,0,0.08);
+    border-radius: 50%;
+}
+.Jadoo_Footer_Intro{
+    font-family: 'Poppins',sans-serif;
+}
+
+.Instagram{
+    background-position: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+    background-image: radial-gradient(49% 81% at 45% 47%, #FFE20345 0%, #073AFF00 100%),radial-gradient(113% 91% at 17% -2%, #FF00FDFF 1%, #FF000000 99%),radial-gradient(142% 91% at 83% 7%, #FFDB00FF 1%, #FF000000 99%),radial-gradient(142% 91% at -6% 74%, #8A2263FF 1%, #FF000000 99%),radial-gradient(142% 91% at 111% 84%, #FF7000FF 0%, #FF0000FF 100%);
+}
+
+.Jadoo_Footer_Download_Stores h2{
+font-size: var(--h3-font-size);
+text-align: center;
+color: var(--CTA-text-color);
+font-family: 'Poppins',sans-serif;
+font-weight: 500;
+}
+
+.Jadoo_Footer_Download_Stores_Btn_Container{
+    background-color: var(--text-color);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.Jadoo_Footer_Download_Stores_Btn_Container img{
+    height: 2rem;
+    width: 2rem;
+}
+
+.Jadoo_Footer_Download_Stores_Btn_Container p{
+font-size: .6rem;
+color: #fff;
+font-family: 'Poppins',sans-serif;
+}
+
+.Jadoo_Footer_Download_Stores_Btn_Container span{
+    font-weight: 800;
+}

@@ -1,0 +1,8 @@
+export {default as Navbar} from './Navbar'
+export {default as Hero} from './Hero'
+export {default as Services} from './Services'
+export {default as Destinations} from './Destinations'
+export {default as Bookings} from './Bookings'
+export {default as Testimonials} from './Testimonials'
+export {default as Call_to_action} from './Call_to_action'
+export {default as Footer} from './Footer'
